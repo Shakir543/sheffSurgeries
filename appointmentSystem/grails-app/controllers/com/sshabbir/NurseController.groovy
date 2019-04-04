@@ -2,5 +2,5 @@ package com.sshabbir
 
 class NurseController {
 
-    def scaffold= nurse
+    def scaffold= Nurse
 }
