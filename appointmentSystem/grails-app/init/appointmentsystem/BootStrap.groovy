@@ -3,7 +3,7 @@ package com.sshabbir
 class BootStrap {
 
     def init = { servletContext ->
- def SMCentre = new 
+ /*def SMCentre = new 
 Surgery(
 name: 'Sheffield Medical Centre',
 address: '185 London Road, Sheffield',
@@ -164,7 +164,7 @@ MJolie.addToDoctors(JFoxx)
 
 App2.addToSurgeries(RMSurgery)
 MJolie.addToAppointments(App2)
-PCTL.addToPatients(MJolie)
+PCTL.addToPatients(MJolie)*/
 
 
 
