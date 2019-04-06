@@ -11,7 +11,8 @@ return appDate
 }
 
 static hasMany=[patients:Patient,doctors:Doctor,surgeries:Surgery]
-static belongsTo=[Patient]
+static belongsTo=[Patient,Surgery,Doctor]
+
 
 
     static constraints = {

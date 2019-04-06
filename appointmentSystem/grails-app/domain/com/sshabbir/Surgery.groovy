@@ -8,7 +8,11 @@ String openingtime
 String description
 String telephone
 int numberOfPatients
-static hasMany=[doctors:Doctor,receptionists:Receptionist,appointments:Appointment,nurses:Nurse,patients:Patient]
+
+
+static hasMany=[doctors:Doctor,appointments:Appointment,receptionists:Receptionist,nurses:Nurse,patients:Patient]
+static belongsTo=[Doctor,Appointment,Patient]
+
 
 String toString(){
 return name
@@ -22,5 +26,6 @@ openingtime nullable: false, blank: false
 description nullable: false, blank: false, maxSize: 5000, widget: 'textarea'
 telephone nullable: false, blank: false
 numberOfPatients nullable: false, blank: false, max: 50
+
     }
 }

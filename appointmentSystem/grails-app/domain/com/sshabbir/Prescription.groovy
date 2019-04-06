@@ -4,10 +4,13 @@ class Prescription {
 String pharmacyName
 String prescripNumber
 String medicine
-Double totalCost
+String totalCost
 Date dateIssued
 Boolean  patientPaying
 String daysOfsupply
+
+static hasMany=[doctors:Doctor,patients:Patient]
+static belongsTo=[Doctor,Patient]
 
 String toString(){
 return pharmacyName
@@ -17,7 +20,7 @@ return pharmacyName
 pharmacyName nullable: false, blank: false
 prescripNumber nullable: false, blank: false, unique: true, maxSize: 20
 medicine nullable: false, blank: false
-totalCost nullable: false, blank: false, scale: 2
+totalCost nullable: false, blank: false 
 dateIssued nullable: false, blank: false
 patientPaying nullable: false, blank: false 
 daysOfsupply nullable: false, blank: false 
