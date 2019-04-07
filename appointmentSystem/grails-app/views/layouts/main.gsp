@@ -18,8 +18,18 @@
 
 <div class="row">
  <asset:image src="banner-surgery-4.jpg"/>
+<h3>Receptionist Login</h3>
+
 <g:loginToggle />
  </div>
+
+<div class="row">
+
+<h3>Doctor Login</h3>
+
+<g:doctorToggle />
+ </div>
+
 
 <g:layoutBody/>
 
