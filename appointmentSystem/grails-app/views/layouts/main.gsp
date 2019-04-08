@@ -15,18 +15,16 @@
 </head>
 
 <body>
+<asset:image src="banner-surgery-4.jpg"/>
+  
+ 
 
-<div class="row">
- <asset:image src="banner-surgery-4.jpg"/>
-<h3>Receptionist Login</h3>
-
+<div class = "row">
 <g:loginToggle />
  </div>
 
-<div class="row">
 
-<h3>Doctor Login</h3>
-
+<div class = "row">
 <g:doctorToggle />
  </div>
 
